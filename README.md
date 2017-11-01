@@ -1,7 +1,8 @@
 People, involved in the project:
-1. https://github.com/ginkogrudev
-2.
-3. https://github.com/Bullsized
+1. https://github.com/ginkogrudev | https://softuni.bg/users/profile/show/GinkoGrudev
+2. https://github.com/VaskoViktorov | https://softuni.bg/users/profile/show/Backo_vd
+3. https://github.com/Bullsized | https://softuni.bg/users/profile/show/Bullsized
+
 And unfortunately we do NOT have a number 4, because of the js-teamwork.github.io system having a bug and putting him in two groups, so it's just the three of us.
 
 Online Live Chat
