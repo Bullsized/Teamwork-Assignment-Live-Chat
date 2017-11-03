@@ -1,7 +1,11 @@
+<img src="https://i.imgur.com/nDua6Z8.jpg">
+
+<h1>HIPPO CHAT</h1>
+
 People, involved in the project:
 1. https://github.com/ginkogrudev | https://softuni.bg/users/profile/show/GinkoGrudev
 2. https://github.com/VaskoViktorov | https://softuni.bg/users/profile/show/Backo_vd
-3. https://github.com/Bullsized | https://softuni.bg/users/profile/show/Bullsized
+3. https://github.com/Bullsized | https://softuni.bg/users/profile/show/Bullsized > Created the repository, so we can all participate, invited Ginko and Vasko as collaborators. Created the main UI of the chat, showed how registered users can customize their profile and/or other personal details; create, join and participate in both public and private chat rooms, view other people's profiles, attach files, send pictures and so on - everything is in the Bullsized\ folder.
 
 And unfortunately we do NOT have a number 4, because of the js-teamwork.github.io system having a bug and putting him in two groups, so it's just the three of us.
 
