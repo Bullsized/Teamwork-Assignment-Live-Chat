@@ -1,0 +1,28 @@
+﻿<?Infragistics.Models format="xaml" version="29" appVersion="9.2.1000.51"?>
+<Page xmlns="http://prototypes.infragistics.com/"
+                                                                                   Id="b5dce073-89d0-44b0-8578-181240ff2563">
+    <Page.Content>
+        <Content Width="1024" Height="768" Id="4f2c38f4-6060-4048-bedc-f55700f3e094">
+            <Content.Layers>
+                <Layer Id="d71e8264-aa30-4575-98fc-b836b31cdc9e" Panel.Layout="Stretch" />
+                <AnnotationsLayer Id="6573cca5-c2bb-4075-93b1-8a34a5bf04dd" Panel.Layout="Stretch" />
+            </Content.Layers>
+            <Content.Viewbox>
+                <Viewbox Size="1024,768" Id="0c4c1d4f-1745-49ec-bf90-5e5443754d7c" />
+            </Content.Viewbox>
+            <Content.GuidesInfo>
+                <GuidesInfo Id="1d26de99-aef3-4696-b9e8-72d4936b23b8" />
+            </Content.GuidesInfo>
+        </Content>
+    </Page.Content>
+    <Page.Device>
+        <DeviceInfo Id="Browser" Orientation="None" />
+    </Page.Device>
+    <Page.Scenes>
+        <Scene Title="Start" Created="11/04/2017 01:34:34" Id="8c8944a1-1acf-47b3-972a-6106c93a435e">
+            <Scene.KeyFrames>
+                <KeyFrame Id="b7346425-4fa1-4b74-acc9-6bb7cc58665a" />
+            </Scene.KeyFrames>
+        </Scene>
+    </Page.Scenes>
+</Page>

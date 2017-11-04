@@ -1,0 +1,130 @@
+﻿<?Infragistics.Models format="xaml" version="29" appVersion="9.2.1000.51"?>
+<Page xmlns="http://prototypes.infragistics.com/"
+                                                                                   xmlns:d="http://prototypes.infragistics.com/views/design"
+                                                                                   Id="9d126f36-6663-472e-a9ce-c64ea4520bd3" d:Design.ShowGuides="False">
+    <Page.Content>
+        <Content Width="1024" Height="768" Id="ad12a2e1-e937-41f9-849b-5e17fc6441e9">
+            <Content.Layers>
+                <Layer Id="0cce34ff-b86d-42eb-8379-ffb1639146cd" Panel.Layout="Stretch" />
+                <AnnotationsLayer Id="85bc7be0-02fa-4307-b023-3605fd533247" Panel.Layout="Stretch" />
+            </Content.Layers>
+            <Content.Viewbox>
+                <Viewbox Size="1024,768" Id="a9490f4a-8e42-4434-9e43-2bb2228b536a" />
+            </Content.Viewbox>
+            <Content.GuidesInfo>
+                <GuidesInfo Id="0935f45d-a9a6-46e6-abdc-94fbb4fac1b2" />
+            </Content.GuidesInfo>
+        </Content>
+    </Page.Content>
+    <Page.Device>
+        <DeviceInfo Id="Browser" Orientation="None" />
+    </Page.Device>
+    <Page.Scenes>
+        <Scene Title="Start" Created="11/03/2017 23:41:01" Id="8cddd5d0-ed71-4965-8d3b-49117bcf0ba4">
+            <Scene.KeyFrames>
+                <KeyFrame Id="3169174e-2548-4e2f-9478-7b4632c72a8a">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="0cce34ff-b86d-42eb-8379-ffb1639146cd">
+                            <Add.Item>
+                                <BootstrapBox Id="6ab8f21c-0988-4664-8ceb-20042d412759" Panel.Layout="Stretch">
+                                    <BootstrapBox.Content>
+                                        <BootstrapContainer Id="376eb6d5-71fa-48de-9857-ab4a16d72eec">
+                                            <BootstrapContainer.Children>
+                                                <Row Background="#FFFFFFFF" Padding="20" Id="c3103ec3-bfde-4435-bafe-9436f288cdee">
+                                                    <Row.Children>
+                                                        <Column Id="ef348231-2633-493d-8ad4-5d284455defd" BootstrapContainer.SpanMd="3" BootstrapContainer.SpanSm="3">
+                                                            <Column.Children>
+                                                                <Icon Color="#FF8064A2" CatalogId="fa-home" Opacity="1" Id="f1cdc51a-6f3c-4f5d-9d39-699451e6345a" BootstrapContainer.HorizontalAlignment="Center" Panel.Bounds="41,7,61{5,2147483647},61{5,2147483647}">
+                                                                    <Icon.Click>
+                                                                        <CommandSwitchTo SceneId="8cddd5d0-ed71-4965-8d3b-49117bcf0ba4" Created="11/03/2017 23:44:40" Id="f0e19986-0352-42c4-8565-5f3561a0242a" />
+                                                                    </Icon.Click>
+                                                                </Icon>
+                                                                <Label RichText="Hippo Chat" Align="Center" Foreground="#FF8E75AC" FontSize="24" FontFamily="Verdana" FontStyle="Underline|Bold" Id="c2bc6254-61ae-4d04-bc78-5342345c9f4d" Panel.Bounds="120,19,5*{5,2147483647},5*{5,2147483647}">
+                                                                    <Label.Click>
+                                                                        <CommandSwitchTo SceneId="8cddd5d0-ed71-4965-8d3b-49117bcf0ba4" Created="11/03/2017 23:45:15" Id="ae225bae-580f-43b3-b8de-715e9dfe9d3b" />
+                                                                    </Label.Click>
+                                                                </Label>
+                                                            </Column.Children>
+                                                        </Column>
+                                                        <Column Id="47577db9-f971-4571-b905-d7e6582e4774" BootstrapContainer.SpanMd="3" BootstrapContainer.SpanSm="9" BootstrapContainer.OffsetMd="6" Panel.Bounds="0,0,0*,122">
+                                                            <Column.Children>
+                                                                <Button Text="Login" Background="#FFAA98C1" BorderColor="#FF725792" CornerRadius="7" Foreground="#FF8064A2" FontSize="16" FontFamily="Verdana" Id="6bab8f0c-093a-4b70-bdee-78ad0d38bbf5" BootstrapContainer.Margin="9" Panel.Bounds="340,61,80{5,2147483647},35{5,2147483647}">
+                                                                    <Button.Click>
+                                                                        <CommandNavigate Screen="/Sceens/Login.screen" State="18ba289e-b82d-4f1d-a540-d71b9f92258c" Created="11/04/2017 00:46:43" Id="700c86a3-2b9d-438f-9fed-df64bf7f872d">
+                                                                            <CommandNavigate.Transition>
+                                                                                <NavigateTransition Duration="0" />
+                                                                            </CommandNavigate.Transition>
+                                                                        </CommandNavigate>
+                                                                    </Button.Click>
+                                                                </Button>
+                                                                <Button Text="Register" Background="#FFAA98C1" BorderColor="#FF725792" CornerRadius="7" Foreground="#FF8064A2" FontSize="16" FontFamily="Verdana" Id="e5b29b62-8165-403d-863a-bbb573e5082e" BootstrapContainer.Margin="9" Panel.Bounds="357,71,80{5,2147483647},35{5,2147483647}">
+                                                                    <Button.Click>
+                                                                        <CommandNavigate Screen="/Sceens/Register.screen" Created="11/04/2017 01:14:37" Id="74f44569-9ca2-49e7-a15c-61658eb13336">
+                                                                            <CommandNavigate.Transition>
+                                                                                <NavigateTransition Duration="0" />
+                                                                            </CommandNavigate.Transition>
+                                                                        </CommandNavigate>
+                                                                    </Button.Click>
+                                                                </Button>
+                                                            </Column.Children>
+                                                        </Column>
+                                                    </Row.Children>
+                                                </Row>
+                                                <Row Background="#FFFFFFFF" Padding="20" Id="301b86c1-0df7-42c4-a2de-48ebae304678">
+                                                    <Row.Children>
+                                                        <Column Id="6e5c6ba0-e57c-42e1-a73e-a189266f9d4a" BootstrapContainer.SpanMd="3" BootstrapContainer.OffsetMd="2">
+                                                            <Column.Children>
+                                                                <Label RichText="Your HippoName:" Foreground="#FF8064A2" FontSize="18" FontFamily="Verdana" Id="63a137ac-bd55-4ff9-b092-3bfc2fa6254e" Panel.Bounds="183,21,5*{5,2147483647},5*{5,2147483647}" />
+                                                            </Column.Children>
+                                                        </Column>
+                                                        <Column Id="7598e97e-36ac-47a5-85e9-2e8e4be5bc95" BootstrapContainer.SpanMd="3">
+                                                            <Column.Children>
+                                                                <TextBox Background="#FFE3DDEA" FontSize="18" FontFamily="Verdana" Tooltip="The name which other people will see you with" Id="fedf108c-1500-4f1f-9abe-43ab208da355" Panel.Bounds="56,32,120{5,2147483647},5*{5,2147483647}" />
+                                                            </Column.Children>
+                                                        </Column>
+                                                        <Column Id="5b9dead3-10ee-4d5d-8efa-9a7ce80f5d11" BootstrapContainer.SpanMd="3">
+                                                            <Column.Children>
+                                                                <Button Text="Enter Hippo Chat" Background="#FFAA98C1" BorderColor="#FF725792" CornerRadius="7" Foreground="#FF8064A2" FontSize="16" FontFamily="Verdana" Opacity="1" Id="3adc1759-9f9b-4c33-a899-f93045a20be7" Panel.Bounds="608,178,80{5,2147483647},35{5,2147483647}" />
+                                                            </Column.Children>
+                                                        </Column>
+                                                    </Row.Children>
+                                                </Row>
+                                                <Row Id="4ba1f6d6-d207-49ce-9b0d-cd1db5a0de90">
+                                                    <Row.Children>
+                                                        <Column Id="85469c14-abae-446a-bf82-169413d285b3">
+                                                            <Column.Children>
+                                                                <Label RichText="&lt;Run FontSize=&quot;21&quot; Foreground=&quot;#FF725792&quot; &gt;Public Channels&lt;/Run&gt;" Align="Center" FontFamily="Verdana" Id="16e5b13f-976a-438a-8141-f9acffd7ec91" BootstrapContainer.Margin="20" Panel.Bounds="445,35,5*{5,2147483647},5*{5,2147483647}" />
+                                                            </Column.Children>
+                                                        </Column>
+                                                        <Column Id="0ede8554-55fe-48b4-a156-ac58b216e93e" BootstrapContainer.SpanMd="8" BootstrapContainer.OffsetMd="2">
+                                                            <Column.Children>
+                                                                <ListBox BorderColor="#FF8064A2" CornerRadius="24,35,35,35" Foreground="#FF000000" FontSize="14" FontFamily="Roboto" Opacity="1" Id="3e706275-64dd-41b0-a065-b5f6fba71203" BootstrapContainer.Margin="20" BootstrapContainer.SpanMd="12" Panel.Bounds="561,324,110{5,2147483647},200{5,2147483647}">
+                                                                    <ListBox.Items>
+                                                                        <Item Text="Item 1" Id="ede12bb7-a3d3-4b0b-a8cc-0c249389dcb8" />
+                                                                        <Item Text="Item 2" Id="ffd60426-d43e-4ede-b492-37926d9f3ead" />
+                                                                        <Item Text="New Item" Id="e2cc2004-2a85-47da-80b9-0037000f9f5c" />
+                                                                        <Item Text="New Item" Id="d762508f-e670-4441-95c2-5714eced1615" />
+                                                                    </ListBox.Items>
+                                                                </ListBox>
+                                                            </Column.Children>
+                                                        </Column>
+                                                        <Column Id="515401ff-c01d-449c-bc8d-e5acba8143a7" BootstrapContainer.SpanMd="4" BootstrapContainer.OffsetMd="4">
+                                                            <Column.Children>
+                                                                <Button Text="Done" Background="#FFAA98C1" BorderColor="#FF8E75AC" CornerRadius="7" Foreground="#FF8E75AC" FontSize="16" FontFamily="Roboto" Opacity="1" Id="b13d6247-e7d7-4530-b299-42377e967966" BootstrapContainer.Margin="20" Panel.Bounds="632,574,80{5,2147483647},35{5,2147483647}" />
+                                                            </Column.Children>
+                                                        </Column>
+                                                    </Row.Children>
+                                                </Row>
+                                            </BootstrapContainer.Children>
+                                        </BootstrapContainer>
+                                    </BootstrapBox.Content>
+                                </BootstrapBox>
+                            </Add.Item>
+                        </Add>
+                        <Set Property="Content.AutoHeight" Value="True" Target="ad12a2e1-e937-41f9-849b-5e17fc6441e9" />
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+    </Page.Scenes>
+</Page>

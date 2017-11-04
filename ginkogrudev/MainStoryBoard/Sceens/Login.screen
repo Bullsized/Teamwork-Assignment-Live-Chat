@@ -1,0 +1,135 @@
+﻿<?Infragistics.Models format="xaml" version="29" appVersion="9.2.1000.51"?>
+<Page xmlns="http://prototypes.infragistics.com/"
+                                                                                   xmlns:d="http://prototypes.infragistics.com/views/design"
+                                                                                   Id="9d126f36-6663-472e-a9ce-c64ea4520bd3" d:Design.ShowGuides="False">
+    <Page.Content>
+        <Content Width="800" Height="600" Id="ad12a2e1-e937-41f9-849b-5e17fc6441e9">
+            <Content.Layers>
+                <Layer Id="0cce34ff-b86d-42eb-8379-ffb1639146cd" Panel.Layout="Stretch" />
+                <AnnotationsLayer Id="85bc7be0-02fa-4307-b023-3605fd533247" Panel.Layout="Stretch" />
+            </Content.Layers>
+            <Content.Viewbox>
+                <Viewbox Size="800,600" Id="a9490f4a-8e42-4434-9e43-2bb2228b536a" />
+            </Content.Viewbox>
+            <Content.GuidesInfo>
+                <GuidesInfo Id="0935f45d-a9a6-46e6-abdc-94fbb4fac1b2" />
+            </Content.GuidesInfo>
+        </Content>
+    </Page.Content>
+    <Page.Device>
+        <DeviceInfo Id="Browser" Orientation="None" />
+    </Page.Device>
+    <Page.Scenes>
+        <Scene Title="Start" Created="11/04/2017 00:13:36" Id="18ba289e-b82d-4f1d-a540-d71b9f92258c">
+            <Scene.KeyFrames>
+                <KeyFrame Id="49a51cd2-93d7-4ee3-a95a-8ed202cfb103">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="0cce34ff-b86d-42eb-8379-ffb1639146cd">
+                            <Add.Item>
+                                <BootstrapBox Id="6ab8f21c-0988-4664-8ceb-#2fa9546eefd9" Panel.Layout="Stretch">
+                                    <BootstrapBox.Content>
+                                        <BootstrapContainer Id="376eb6d5-71fa-48de-9857-#254260ec509b">
+                                            <BootstrapContainer.Children>
+                                                <Row Padding="10" Id="6b1d0652-1c72-4f01-b551-2fe15def8819">
+                                                    <Row.Children>
+                                                        <Column Id="1d9cf42f-cf95-4c9b-a94d-2853ca7fa7e0" BootstrapContainer.SpanMd="2" BootstrapContainer.OffsetMd="4">
+                                                            <Column.Children>
+                                                                <Title RichText="Login" Align="Center" Foreground="#FF8E75AC" FontFamily="Roboto" Opacity="1" Id="3d3f2811-683e-4b15-9314-ee89acd5a1a7" Panel.Bounds="424,11,5*{5,2147483647},5*{5,2147483647}" />
+                                                            </Column.Children>
+                                                        </Column>
+                                                    </Row.Children>
+                                                </Row>
+                                                <Row Id="4dc65951-9d28-47f4-a243-09fb48d55b61">
+                                                    <Row.Children>
+                                                        <Column Id="75fcdcab-0382-4515-8524-0af23d019091" BootstrapContainer.SpanMd="4" BootstrapContainer.SpanSm="6" BootstrapContainer.OffsetMd="3" BootstrapContainer.OffsetSm="3">
+                                                            <Column.Children>
+                                                                <Label RichText="Email or Username" Foreground="#FFAA98C1" FontFamily="Roboto" Opacity="1" Id="6c3e0d6e-2612-4efd-a2da-4c3d30b879a6" BootstrapContainer.Margin="0" BootstrapContainer.SpanMd="10" Panel.Bounds="-156,0,5*{5,2147483647},5*{5,2147483647}" />
+                                                                <TextBox FontFamily="Roboto" Opacity="1" Tooltip="Email" Id="7e99baf6-193f-4e79-8747-0d790d6a1b3e" BootstrapContainer.SpanMd="9" BootstrapContainer.SpanSm="10" Panel.Bounds="456,166,120{5,2147483647},5*{5,2147483647}">
+                                                                    <TextBox.TextChanged>
+                                                                        <ConditionalCommand Id="8bd20db4-b193-472c-970f-b6dcf42c35a1">
+                                                                            <ConditionalCommand.Command>
+                                                                                <CommandNavigate Screen="/Admin View.screen" Created="11/04/2017 01:36:49" Id="77ae45b4-bfcf-4ce2-b0b5-1d8489d020f8">
+                                                                                    <CommandNavigate.Transition>
+                                                                                        <NavigateTransition Type="Flip" Duration="300" Direction="Right" />
+                                                                                    </CommandNavigate.Transition>
+                                                                                </CommandNavigate>
+                                                                            </ConditionalCommand.Command>
+                                                                            <ConditionalCommand.Condition>
+                                                                                <TextCondition Text="admin" />
+                                                                            </ConditionalCommand.Condition>
+                                                                        </ConditionalCommand>
+                                                                    </TextBox.TextChanged>
+                                                                </TextBox>
+                                                                <Icon Color="#FF8064A2" CatalogId="Mail" Id="4ab9c05a-964a-48b4-bcb0-ecdea827a565" BootstrapContainer.HorizontalAlignment="Center" BootstrapContainer.SpanMd="2" BootstrapContainer.SpanSm="2" Panel.Bounds="265,23,32{5,2147483647},32{5,2147483647}" />
+                                                            </Column.Children>
+                                                        </Column>
+                                                        <Column Id="1c8f7095-3536-4eeb-9a7d-89c5a45e5498" BootstrapContainer.SpanMd="4" BootstrapContainer.SpanSm="6" BootstrapContainer.OffsetMd="3" BootstrapContainer.OffsetSm="3">
+                                                            <Column.Children>
+                                                                <Label RichText="Password" Foreground="#FFAA98C1" FontFamily="Roboto" Opacity="1" Id="42b3a035-fd73-450a-824e-40b8b76e8b78" BootstrapContainer.SpanMd="6" Panel.Bounds="-55,-12,5*{5,2147483647},5*{5,2147483647}" />
+                                                                <PasswordBox FontFamily="Roboto" Opacity="1" Id="aecadc79-50e1-4b06-b6f0-512168c9f986" BootstrapContainer.SpanMd="9" BootstrapContainer.SpanSm="10" BootstrapContainer.OffsetMd="0" Panel.Bounds="100,5,120{5,2147483647},5*{5,2147483647}" />
+                                                                <Icon Color="#FF8064A2" CatalogId="fa-lock" Opacity="1" Id="33b57f4f-8d54-4ae7-accb-6da0130472e2" BootstrapContainer.HorizontalAlignment="Center" BootstrapContainer.SpanMd="2" BootstrapContainer.SpanSm="2" Panel.Bounds="155,71,33{5,2147483647},33{5,2147483647}" />
+                                                            </Column.Children>
+                                                        </Column>
+                                                    </Row.Children>
+                                                </Row>
+                                                <Row Id="1113aa04-13c5-468e-bc1b-5b40e6dd786f">
+                                                    <Row.Children>
+                                                        <Column Id="487d2ff7-811d-4e71-8c99-7a7807b1cd07" BootstrapContainer.SpanMd="2" BootstrapContainer.SpanSm="4" BootstrapContainer.OffsetMd="4" BootstrapContainer.OffsetSm="4">
+                                                            <Column.Children>
+                                                                <Button Text="Login" Background="#FFAA98C1" BorderColor="#FFE3DDEA" CornerRadius="20" Foreground="#FF8064A2" FontSize="16" FontFamily="Roboto" FontStyle="Bold" Id="d2338067-fc00-403f-9e91-000105c158b6" Panel.Bounds="612,-4,80{5,2147483647},35{5,2147483647}" />
+                                                            </Column.Children>
+                                                            <Column.Click>
+                                                                <CommandNavigate Screen="/Sceens/ChatMain Screen For Users.screen" Created="11/04/2017 01:37:53" Id="2ead04e5-1b17-408a-8876-7618b1f6238e">
+                                                                    <CommandNavigate.Transition>
+                                                                        <NavigateTransition Type="Flip" Duration="300" />
+                                                                    </CommandNavigate.Transition>
+                                                                </CommandNavigate>
+                                                            </Column.Click>
+                                                        </Column>
+                                                    </Row.Children>
+                                                </Row>
+                                                <Row Id="9b9c76b7-4e30-43de-ad01-4177fa9a1b44">
+                                                    <Row.Children>
+                                                        <Column Id="b237a0a7-d56d-4c1a-a596-5088609a3e07" BootstrapContainer.SpanMd="2" BootstrapContainer.SpanSm="4" BootstrapContainer.OffsetMd="4" BootstrapContainer.OffsetSm="4">
+                                                            <Column.Children>
+                                                                <Button Text="Facebook" Background="#FFFFFFFF" BorderColor="#FF4281D0" CornerRadius="20" Foreground="#FF4281D0" FontSize="16" FontFamily="Roboto" FontStyle="Bold" Id="afc32a02-6140-479a-afc2-dbac9d40f633" Panel.Bounds="15,-65,80{5,2147483647},35{5,2147483647}" />
+                                                            </Column.Children>
+                                                            <Column.Click>
+                                                                <CommandNavigate Screen="/Sceens/ChatMain Screen For Users.screen" Created="11/04/2017 01:38:24" Id="7ccce45f-cbf0-4ed9-8e9d-0437830c8496">
+                                                                    <CommandNavigate.Transition>
+                                                                        <NavigateTransition Type="Flip" Duration="300" />
+                                                                    </CommandNavigate.Transition>
+                                                                </CommandNavigate>
+                                                            </Column.Click>
+                                                        </Column>
+                                                    </Row.Children>
+                                                </Row>
+                                                <Row Id="ac020542-ffc3-4d81-acf1-9d7bef3effad">
+                                                    <Row.Children>
+                                                        <Column Id="3e542a94-68de-4197-9171-db5800736660" BootstrapContainer.SpanMd="2" BootstrapContainer.SpanSm="4" BootstrapContainer.OffsetMd="4" BootstrapContainer.OffsetSm="4">
+                                                            <Column.Children>
+                                                                <Button Text="Google" Background="#FFFFFFFF" BorderColor="#FFC40000" CornerRadius="20" Foreground="#FFFF7373" FontSize="16" FontFamily="Roboto" FontStyle="Bold" Id="28206a5a-f73b-462c-a9cd-9585e4c2c793" Panel.Bounds="15,-65,80{5,2147483647},35{5,2147483647}" />
+                                                            </Column.Children>
+                                                            <Column.Click>
+                                                                <CommandNavigate Screen="/Sceens/ChatMain Screen For Users.screen" Created="11/04/2017 01:38:31" Id="b2343ac4-5c01-4e72-9602-598e6af5cab1">
+                                                                    <CommandNavigate.Transition>
+                                                                        <NavigateTransition Type="Flip" Duration="300" />
+                                                                    </CommandNavigate.Transition>
+                                                                </CommandNavigate>
+                                                            </Column.Click>
+                                                        </Column>
+                                                    </Row.Children>
+                                                </Row>
+                                            </BootstrapContainer.Children>
+                                        </BootstrapContainer>
+                                    </BootstrapBox.Content>
+                                </BootstrapBox>
+                            </Add.Item>
+                        </Add>
+                        <Set Property="Content.AutoHeight" Value="True" Target="ad12a2e1-e937-41f9-849b-5e17fc6441e9" />
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+    </Page.Scenes>
+</Page>

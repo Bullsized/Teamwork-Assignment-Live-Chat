@@ -1,0 +1,120 @@
+﻿<?Infragistics.Models format="xaml" version="29" appVersion="9.2.1000.51"?>
+<Page xmlns="http://prototypes.infragistics.com/"
+                                                                                   xmlns:d="http://prototypes.infragistics.com/views/design"
+                                                                                   Id="6cbf555a-e363-424d-b228-c429083e90f7" d:Design.ShowGuides="False">
+    <Page.Content>
+        <Content Width="1280" Height="1024" Id="0a83a7ca-e25d-4359-b783-dbf02a1194bb">
+            <Content.Layers>
+                <Layer Id="abf08320-0cf8-4bee-8dd8-56439e3411f5" Panel.Layout="Stretch" />
+                <AnnotationsLayer Id="f3465538-6bb4-4ec3-8a3a-cec441e71606" Panel.Layout="Stretch" />
+            </Content.Layers>
+            <Content.Viewbox>
+                <Viewbox Size="1280,1024" Id="0bd0d639-0000-4cef-b93a-13e8f8072332" />
+            </Content.Viewbox>
+            <Content.GuidesInfo>
+                <GuidesInfo Id="46adc702-f829-4392-9599-0363602eb3f5" />
+            </Content.GuidesInfo>
+        </Content>
+    </Page.Content>
+    <Page.Device>
+        <DeviceInfo Id="Browser" Orientation="None" />
+    </Page.Device>
+    <Page.Scenes>
+        <Scene Title="Start" Created="11/04/2017 01:50:35" Id="38c08d0b-4f8e-4245-9a32-73b17d503604">
+            <Scene.KeyFrames>
+                <KeyFrame Id="fc84174b-0f8c-45fe-8a02-5e3092feb44b">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="abf08320-0cf8-4bee-8dd8-56439e3411f5">
+                            <Add.Item>
+                                <BootstrapBox Id="b0712bfb-a354-48b1-ae40-9359680b3b9f" Panel.Layout="Stretch">
+                                    <BootstrapBox.Content>
+                                        <BootstrapContainer Id="cec5e59a-59a1-4367-87ae-ad92cda54a7f">
+                                            <BootstrapContainer.Children>
+                                                <Row Id="eb6aaba3-7aaf-49bf-a1e7-ac96b4a4d5c4">
+                                                    <Row.Children>
+                                                        <Column Id="4c96d9e4-9ac8-4b1f-ad5a-18d639482cb1" BootstrapContainer.SpanSm="12" />
+                                                    </Row.Children>
+                                                </Row>
+                                                <Row Id="3d294691-9836-49a3-bedc-d1719b6ba2a5">
+                                                    <Row.Children>
+                                                        <Column Background="#FFE3DDEA" Id="8dd35d32-4b34-46c7-a2cc-3e5d627a4335" BootstrapContainer.SpanLg="3" BootstrapContainer.SpanMd="3" BootstrapContainer.SpanSm="4" Panel.Bounds="0,0,0*,301">
+                                                            <Column.Children>
+                                                                <Image SourcePath="assets/profilepic.png" Opacity="1" Id="466105e7-e296-4a1e-aa99-c56c132a2922" BootstrapContainer.SpanMd="2" Panel.Bounds="18,-32,5*{5,2147483647},5*{5,2147483647}" />
+                                                                <Label RichText="&lt;Run Foreground=&quot;#FF8064A2&quot; &gt;Welcome User&lt;/Run&gt;" FontSize="21" FontFamily="Roboto" Opacity="1" Id="85bbeddd-be33-4936-8247-371397ac1e3b" BootstrapContainer.SpanMd="9" BootstrapContainer.OffsetMd="1" Panel.Bounds="-36,39,5*{5,2147483647},5*{5,2147483647}" />
+                                                                <Label RichText="Status:" FontFamily="Roboto" FontStyle="Bold" Id="e52df9af-13ad-4077-bd41-a6ff29cb8262" BootstrapContainer.SpanMd="3" BootstrapContainer.OffsetMd="2" Panel.Bounds="63,39,5*{5,2147483647},5*{5,2147483647}" />
+                                                                <Label RichText="Online" Foreground="#FF3BAF4A" FontFamily="Roboto" Id="c007ceb4-b88d-4470-9db6-265a0004a92b" BootstrapContainer.SpanMd="5" BootstrapContainer.OffsetMd="0" Panel.Bounds="135,43,5*{5,2147483647},5*{5,2147483647}" />
+                                                                <ListBox Background="#FFAA98C1" BorderColor="#FF8064A2" Foreground="#FFE3DDEA" FontSize="14" FontFamily="Roboto" Id="4183645b-0aa2-44b1-8140-502244ffc71e" BootstrapContainer.Margin="2" BootstrapContainer.SpanLg="12" BootstrapContainer.OffsetLg="0" Panel.Bounds="117,-37,110{5,2147483647},200{5,2147483647}">
+                                                                    <ListBox.Items>
+                                                                        <Item Text="My Account" Id="59b50272-a2c1-46e8-9c00-098fa5568fd2" />
+                                                                        <Item Text="Personal Info" Id="5c7ce412-a178-48d0-8ec4-23f556c4c939" />
+                                                                    </ListBox.Items>
+                                                                </ListBox>
+                                                            </Column.Children>
+                                                        </Column>
+                                                        <Column Background="#FFE3DDEA" Id="7d48b578-d219-4e42-b7c4-0ed4568a0d01" BootstrapContainer.SpanLg="9" BootstrapContainer.SpanMd="3" BootstrapContainer.SpanSm="4" Panel.Bounds="0,0,0*,24">
+                                                            <Column.Children>
+                                                                <Label RichText="Last time online: 15th of July" Align="Right" Foreground="#FF8064A2" FontFamily="Verdana" Opacity="1" Id="413ae881-043e-49ca-98c0-dfe38c0b57b5" Panel.Bounds="899,120,5*{5,2147483647},5*{5,2147483647}" />
+                                                            </Column.Children>
+                                                        </Column>
+                                                        <Column Id="9fd728c5-7bfc-4f29-b059-cab275585c51" BootstrapContainer.SpanMd="5" BootstrapContainer.SpanSm="4" Panel.Bounds="0,0,0*,572">
+                                                            <Column.Children>
+                                                                <Title RichText="My Account&#xD;&#xA;" FontFamily="Roboto" Id="9b79d4be-1d20-49ca-8683-1b93117df954" Panel.Bounds="28,61,5*{5,2147483647},44{5,2147483647}" />
+                                                                <Label RichText="Change your settings from here" FontFamily="Roboto" Id="2a331267-4632-45a4-ad5e-f38beb35af0b" Panel.Bounds="20,47,5*{5,2147483647},5*{5,2147483647}" />
+                                                                <Label RichText="Personal Info" Foreground="#FF000000" FontSize="14" FontFamily="Verdana" Id="d3ed1f82-9ce6-4b4c-bb3c-5c2ae56a8f63" BootstrapContainer.SpanLg="11" BootstrapContainer.OffsetLg="1" Panel.Bounds="39,149,5*{5,2147483647},5*{5,2147483647}" />
+                                                                <Label RichText="Your Basic Information" FontSize="18" FontFamily="Verdana" Id="3db4c414-a600-4463-b68d-bc4bae3145b7" BootstrapContainer.SpanLg="12" BootstrapContainer.OffsetLg="0" Panel.Bounds="54,133,5*{5,2147483647},5*{5,2147483647}" />
+                                                                <Label RichText="Email Address" Align="Left" FontSize="16" FontFamily="Verdana" FontStyle="Bold" Id="7b3e420b-a5a1-4e2d-bd23-6bfdb2142313" BootstrapContainer.Margin="7" BootstrapContainer.SpanLg="4" Panel.Bounds="19,197,5*{5,2147483647},5*{5,2147483647}" />
+                                                                <TextBox Text="Gosho@abv.bg" FontSize="14" FontFamily="Verdana" Opacity="1" Id="39a805fb-0998-4a6c-8590-044988f127fd" BootstrapContainer.Margin="8" BootstrapContainer.SpanLg="5" BootstrapContainer.OffsetLg="0" Panel.Bounds="21,210,120{5,2147483647},5*{5,2147483647}" />
+                                                                <Label RichText="Name" Align="Left" Foreground="#FF000000" FontSize="16" FontFamily="Verdana" FontStyle="Bold" Opacity="1" Id="a7c59738-9e4e-450f-bbfc-f3160119eaec" BootstrapContainer.Margin="7" BootstrapContainer.SpanLg="4" Panel.Bounds="205,171,5*{5,2147483647},5*{5,2147483647}" />
+                                                                <TextBox Text="Gosho Dimitrov" FontFamily="Verdana" Id="3506239b-9689-421d-8caa-5af702df409b" BootstrapContainer.Margin="8" BootstrapContainer.SpanLg="5" BootstrapContainer.OffsetLg="0" Panel.Bounds="260,199,120{5,2147483647},5*{5,2147483647}" />
+                                                                <Label RichText="Nickname" Align="Left" FontSize="16" FontFamily="Verdana" FontStyle="Bold" Id="80178de0-82cb-4e43-b8f2-22999d327147" BootstrapContainer.Margin="7" BootstrapContainer.SpanLg="4" Panel.Bounds="22,169,5*{5,2147483647},5*{5,2147483647}" />
+                                                                <TextBox Text="Gosho@abv.bg" FontSize="14" FontFamily="Verdana" Opacity="1" Id="7f448613-7d47-4adf-99a2-a92689a4bc2f" BootstrapContainer.Margin="8" BootstrapContainer.SpanLg="5" Panel.Bounds="23,204,120{5,2147483647},5*{5,2147483647}" />
+                                                                <Label RichText="Country" Foreground="#FF000000" FontSize="16" FontFamily="Verdana" FontStyle="Bold" Opacity="1" Id="96e43c5a-40d1-4ab4-989f-9ad47165afbd" BootstrapContainer.Margin="7" BootstrapContainer.SpanLg="4" BootstrapContainer.OffsetLg="0" Panel.Bounds="315,169,5*{5,2147483647},5*{5,2147483647}" />
+                                                                <ComboBox Hint="Choose your country" FontSize="14" FontFamily="Verdana" Id="9d689a4d-70ec-4a6d-846e-d45b954f3b9a" BootstrapContainer.Margin="8" BootstrapContainer.SpanLg="5" BootstrapContainer.OffsetLg="0" Panel.Bounds="310,304,150{5,2147483647},28{5,2147483647}">
+                                                                    <ComboBox.Items>
+                                                                        <Item Text="Bulgaria" Id="ca24aacf-825f-4cfa-9b21-a42e8719c46c" />
+                                                                        <Item Text="UK" Id="c3e203d5-8ddf-4d99-8837-4a07cd844944" />
+                                                                        <Item Text="USA" Id="01dabab8-25d6-4c6c-825c-7d147cbb54d5" />
+                                                                        <Item Text="Russia" Id="852cef38-589b-4841-a90b-3a8fc40e7335" />
+                                                                        <Item Text="Italy" Id="f70b7bdf-8a3c-41c0-8bd9-b19ce69e6cd8" />
+                                                                    </ComboBox.Items>
+                                                                </ComboBox>
+                                                            </Column.Children>
+                                                        </Column>
+                                                        <Column Id="0586e6ff-8289-43c7-9b13-f45a520bd990" BootstrapContainer.Margin="9" BootstrapContainer.SpanSm="4" Panel.Bounds="0,0,0*,338">
+                                                            <Column.Children>
+                                                                <Label RichText="My Account" FontSize="18" FontFamily="Roboto" Id="f0f3944b-8d2b-4507-86da-5574fab0d8be" BootstrapContainer.SpanMd="8" Panel.Bounds="74,34,5*{5,2147483647},5*{5,2147483647}" />
+                                                                <Image SourcePath="assets/profilepic.png" Id="c15858b2-f401-464d-b5b4-e9eef9c20212" BootstrapContainer.SpanMd="5" BootstrapContainer.OffsetMd="3" Panel.Bounds="10,10,5*{5,2147483647},5*{5,2147483647}" />
+                                                                <Label RichText="Ginko" FontSize="18" FontFamily="Roboto" Id="c0f606a9-2021-4b93-87ba-2660368da531" BootstrapContainer.SpanMd="3" BootstrapContainer.OffsetMd="4" Panel.Bounds="187,137,5*{5,2147483647},5*{5,2147483647}" />
+                                                                <Icon Color="#FF8064A2" CatalogId="fa-plus" Opacity="1" Id="a520d288-a21d-4264-aa56-b5cecb75578b" BootstrapContainer.HorizontalAlignment="Center" BootstrapContainer.SpanMd="3" BootstrapContainer.OffsetMd="3" Panel.Bounds="119,230,32{5,2147483647},32{5,2147483647}" />
+                                                                <Icon Color="#FF8064A2" CatalogId="fa-minus" Opacity="1" Id="d7bbf691-dc13-4cee-9eb2-263d180f7588" BootstrapContainer.HorizontalAlignment="Center" BootstrapContainer.SpanMd="1" Panel.Bounds="176,249,32{5,2147483647},32{5,2147483647}" />
+                                                                <Label RichText="upload new profile picture" FontFamily="Roboto" Id="0a7051eb-4ba2-4213-a613-4ffcb8264975" BootstrapContainer.SpanMd="7" BootstrapContainer.OffsetMd="3" Panel.Bounds="193,246,5*{5,2147483647},5*{5,2147483647}" />
+                                                            </Column.Children>
+                                                        </Column>
+                                                        <Column Id="8ddbae9f-113e-4b03-83b7-dafa3f2b570c" BootstrapContainer.Margin="9" BootstrapContainer.SpanSm="4" Panel.Bounds="0,0,0*,368">
+                                                            <Column.Children>
+                                                                <Label RichText="About me" FontFamily="Roboto" Id="9672b636-f2dd-46f6-8bee-fa13858ded3a" Panel.Bounds="154,36,5*{5,2147483647},5*{5,2147483647}" />
+                                                                <Label RichText="Lorem Ipsum е елементарен примерен текст, използван в печатарската и типографската индустрия. Lorem Ipsum е индустриален стандарт от около 1500 година, когато неизвестен печатар взема няколко печатарски букви и ги разбърква, за да напечата с тях книга с примерни шрифтове.&#xD;&#xA;&#xD;&#xA;Този начин не само е оцелял повече от 5 века, но е навлязъл и в публикуването на електронни издания като е запазен почти без промяна. &#xD;&#xA;&#xD;&#xA;Популяризиран е през 60те години на 20ти век със издаването на Letraset листи, съдържащи Lorem Ipsum пасажи, популярен е и в наши дни във софтуер за печатни издания като Aldus PageMaker, който включва различни версии на Lorem Ipsum." FontFamily="Roboto" Id="ea1824c6-ec95-430f-ae33-f07d2dc1be59" BootstrapContainer.SpanLg="10" BootstrapContainer.OffsetLg="1" Panel.Bounds="58,95,5*{5,2147483647},281{5,2147483647}" />
+                                                                <Icon Color="#FF6397C4" CatalogId="fa-pencil" Opacity="1" Id="4cb04868-2b59-4631-8ea7-7c58de075d0a" BootstrapContainer.HorizontalAlignment="Center" BootstrapContainer.SpanLg="3" Panel.Bounds="58,327,32{5,2147483647},32{5,2147483647}" />
+                                                                <Label RichText="Edit Bio" Foreground="#FF8064A2" FontFamily="Verdana" FontStyle="Bold" Id="b13d4514-d777-45b9-a03c-04b95dc90aae" BootstrapContainer.SpanLg="6" Panel.Bounds="94,336,5*{5,2147483647},5*{5,2147483647}" />
+                                                            </Column.Children>
+                                                        </Column>
+                                                    </Row.Children>
+                                                </Row>
+                                                <Row Id="3c6912fd-07d4-41d5-9f47-d44632da1706">
+                                                    <Row.Children>
+                                                        <Column Id="e0533bf6-2f72-46af-92ef-e6d350a24fe0" BootstrapContainer.SpanSm="12" />
+                                                    </Row.Children>
+                                                </Row>
+                                            </BootstrapContainer.Children>
+                                        </BootstrapContainer>
+                                    </BootstrapBox.Content>
+                                </BootstrapBox>
+                            </Add.Item>
+                        </Add>
+                        <Set Property="Content.AutoHeight" Value="True" Target="0a83a7ca-e25d-4359-b783-dbf02a1194bb" />
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+    </Page.Scenes>
+</Page>
