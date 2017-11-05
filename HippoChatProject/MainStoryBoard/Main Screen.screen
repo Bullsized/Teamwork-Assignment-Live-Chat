@@ -1,0 +1,307 @@
+﻿<?Infragistics.Models format="xaml" version="29" appVersion="9.2.0.72"?>
+<Page xmlns="http://prototypes.infragistics.com/"
+                                                                                xmlns:d="http://prototypes.infragistics.com/views/design"
+                                                                                Id="50cf303a-8c7d-4559-ab3d-f52c8fdb155e" d:Design.ShowGuides="False">
+    <Page.Content>
+        <Content Width="1024" Height="768" Id="2774571c-1b8b-4f9a-91f9-ddb16ab37ff2">
+            <Content.Layers>
+                <Layer Id="38fd0c5b-ba44-4036-8359-8e6635e1d560" Panel.Layout="Stretch" />
+                <AnnotationsLayer Id="ac3dc68c-fd34-4ffb-bc0e-ee2c7b76a354" Panel.Layout="Stretch" />
+            </Content.Layers>
+            <Content.Viewbox>
+                <Viewbox Size="1024,768" Id="8884d975-eb48-4e0a-af2e-8d44ea5a3543" />
+            </Content.Viewbox>
+            <Content.GuidesInfo>
+                <GuidesInfo Id="b2b3f3ed-7f6c-4ef8-b850-d221f27264ce" />
+            </Content.GuidesInfo>
+        </Content>
+    </Page.Content>
+    <Page.Device>
+        <DeviceInfo Id="Browser" Orientation="None" />
+    </Page.Device>
+    <Page.Scenes>
+        <Scene Title="Start" Created="11/05/2017 14:11:38" Id="b71158a5-bf70-4ecd-b0e4-00d698a5512b">
+            <Scene.KeyFrames>
+                <KeyFrame Id="a9c9f0c9-b09e-4ce6-8717-abd02957a402">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="38fd0c5b-ba44-4036-8359-8e6635e1d560">
+                            <Add.Item>
+                                <BootstrapBox Id="c12fd7ef-185b-413e-9696-adf022e9e9ea" Panel.Layout="Stretch">
+                                    <BootstrapBox.Content>
+                                        <BootstrapContainer Id="f4bd1944-1c1e-4247-aefa-c29ad39a554f">
+                                            <BootstrapContainer.Children>
+                                                <Row Id="49054776-6d88-42e7-9ccc-15b9976f58b7">
+                                                    <Row.Children>
+                                                        <Column Background="#FFE3DDEA" Id="8791fea9-5378-4f4b-9c89-20952698aa64" BootstrapContainer.SpanSm="12" Panel.Bounds="0,0,0*,59" />
+                                                    </Row.Children>
+                                                </Row>
+                                                <Row Id="c6fac062-301a-47f6-bb9f-001205b697ab">
+                                                    <Row.Children>
+                                                        <Column Background="#FFE3DDEA" Id="98b58c2a-5246-438a-8eb2-6c29f73bd995" BootstrapContainer.SpanSm="4" Panel.Bounds="0,0,0*,318">
+                                                            <Column.Children>
+                                                                <Title RichText="Active public chats" Align="Center" FontFamily="Roboto" Opacity="1" Id="f85031b4-c4e4-4f8d-9cad-649312ffdccb" Panel.Bounds="-3,-15,5*{5,2147483647},90{5,2147483647}" />
+                                                                <ListBox FontFamily="Roboto" Id="a3a0f678-6acf-4ab0-8ace-5a9c782f30d9" BootstrapContainer.SpanMd="12" Panel.Bounds="105,-50,110{5,2147483647},200{5,2147483647}">
+                                                                    <ListBox.Items>
+                                                                        <Item Text="Item 1" Id="24c93ca5-0347-446f-9e4a-2fa6cc304772" />
+                                                                        <Item Text="Item 2" Id="7534b2a0-f1a2-4579-9392-22e4d0d03d0f" />
+                                                                        <Item Text="New Item" Id="28fc3d91-56fb-4a1d-8af4-ab37ecd31bad" />
+                                                                        <Item Text="New Item" Id="0e1cd670-1c36-48f8-95d4-0592254fa786" />
+                                                                        <Item Text="New Item" Id="6a7d20fb-bb13-460b-a938-d6f1fa4f63b7" />
+                                                                        <Item Text="New Item" Id="9f371912-186b-4e56-aab7-47dfe0e6d0b4" />
+                                                                        <Item Text="New Item" Id="096ec5f0-b838-4314-b4ab-c695a80c12b2" />
+                                                                        <Item Text="New Item" Id="705bf33f-ba43-4143-85e1-121203740810" />
+                                                                        <Item Text="New Item" Id="2c529938-d222-410d-8271-9037df5f24b5" />
+                                                                        <Item Text="New Item" Id="a0e048c0-4351-418f-b8aa-54a7d8cfd964" />
+                                                                        <Item Text="New Item" Id="691141dd-cc47-4ae1-a2e0-8f5a0acc9ad3" />
+                                                                    </ListBox.Items>
+                                                                </ListBox>
+                                                            </Column.Children>
+                                                        </Column>
+                                                        <Column Background="#FFC7BAD6" Id="f34e2d4f-0043-4416-a5d1-cfb804bf9afc" BootstrapContainer.SpanSm="4" Panel.Bounds="0,0,0*,319">
+                                                            <Column.Children>
+                                                                <Title RichText="Active firend chats" Align="Center" FontFamily="Roboto" Id="ab5f56a4-e40a-436d-8e9b-ef1e5095c66d" Panel.Bounds="43,0,5*{5,2147483647},90{5,2147483647}" />
+                                                                <ListBox FontFamily="Roboto" Id="fcefdf0c-7bc0-489c-b90e-65029db701f5" Panel.Bounds="93,-58,110{5,2147483647},200{5,2147483647}">
+                                                                    <ListBox.Items>
+                                                                        <Item Text="Item 1" Id="2dde4971-aafd-45d7-a554-81bd86161622" />
+                                                                        <Item Text="Item 2" Id="3637488f-905d-4e7a-b2cd-3ebd6518fbfa" />
+                                                                        <Item Text="New Item" Id="0bdd58f4-965b-4765-9df9-ea45f3d7ba3a" />
+                                                                        <Item Text="New Item" Id="7a645408-0cbc-4c2f-a63a-0a181fc946c8" />
+                                                                        <Item Text="New Item" Id="28be57b8-6ee6-4896-98ad-4aa6dc40f592" />
+                                                                        <Item Text="New Item" Id="7633007e-d138-4aea-8079-42711101117a" />
+                                                                        <Item Text="New Item" Id="2d2fb68d-6c0f-4975-8c60-8b423cc125a6" />
+                                                                        <Item Text="New Item" Id="d8c73091-662b-4048-a5f2-46b63f03d101" />
+                                                                        <Item Text="New Item" Id="b12ff914-4b65-4ebd-badb-631b226ae6ab" />
+                                                                        <Item Text="New Item" Id="80f003e2-9785-4d81-b785-2df54da9c727" />
+                                                                    </ListBox.Items>
+                                                                </ListBox>
+                                                            </Column.Children>
+                                                        </Column>
+                                                        <Column Background="#FFAA98C1" Id="e1415cb2-462c-4fda-b2db-498758decbf2" BootstrapContainer.SpanMd="4" BootstrapContainer.SpanSm="4" BootstrapContainer.OffsetMd="0">
+                                                            <Column.Children>
+                                                                <Title RichText="People you might know" Align="Center" FontFamily="Roboto" Id="52973474-96ee-4373-bc4a-b6c4fddc413b" Panel.Bounds="23,4,295{5,2147483647},45*{5,2147483647}" />
+                                                                <ListBox FontFamily="Roboto" Id="fb519395-e724-4651-8ebc-61d9e08fac11" Panel.Bounds="147,-12,110{5,2147483647},200{5,2147483647}">
+                                                                    <ListBox.Items>
+                                                                        <Item Text="Item 1" Id="970362de-ee37-4c0a-9465-352f3afd44f9" />
+                                                                        <Item Text="Item 2" Id="6bd8c579-a91f-4d35-91de-caa7e0e1fc53" />
+                                                                        <Item Text="New Item" Id="7e9affaf-6d7c-4861-be7b-2441c8bfe0e5" />
+                                                                        <Item Text="New Item" Id="2a9da47c-ee0e-4e73-a6de-7a7c18545093" />
+                                                                        <Item Text="New Item" Id="a478c553-a0d6-45fd-83f9-0b512520036d" />
+                                                                        <Item Text="New Item" Id="e2b6693d-9cfe-4c65-980b-8ce40a1ec0b8" />
+                                                                        <Item Text="New Item" Id="cfe5526d-fc04-4083-91b9-253f87dd46fe" />
+                                                                        <Item Text="New Item" Id="940d48ed-6b69-4daf-b9f0-d0551bcbbfa5" />
+                                                                        <Item Text="New Item" Id="7b909471-d27d-46b6-86f4-d2e06bfec2b5" />
+                                                                        <Item Text="New Item" Id="4a4f928a-6db3-4682-9c17-506fb2d3dc42" />
+                                                                    </ListBox.Items>
+                                                                </ListBox>
+                                                            </Column.Children>
+                                                        </Column>
+                                                    </Row.Children>
+                                                </Row>
+                                                <Row Id="9e6db2fd-3a7e-4d03-8cde-43d0226b967f">
+                                                    <Row.Children>
+                                                        <Column Background="#FFC7BAD6" Id="242708d2-8d85-4a9f-9aef-72637bf878c1" BootstrapContainer.SpanSm="12" />
+                                                    </Row.Children>
+                                                </Row>
+                                            </BootstrapContainer.Children>
+                                        </BootstrapContainer>
+                                    </BootstrapBox.Content>
+                                </BootstrapBox>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="38fd0c5b-ba44-4036-8359-8e6635e1d560">
+                            <Add.Item>
+                                <Title RichText="Hello {Username}" FontFamily="Roboto" Id="6d11c063-867b-491b-805d-0ed8b7e00ab9" Panel.Bounds="339,9,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="38fd0c5b-ba44-4036-8359-8e6635e1d560">
+                            <Add.Item>
+                                <Button Text="Logout" CornerRadius="14" FontFamily="Roboto" Id="33489506-dc02-4b61-974b-bd3f41df7974" Panel.Bounds="937,10,80{5,2147483647},35{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="38fd0c5b-ba44-4036-8359-8e6635e1d560">
+                            <Add.Item>
+                                <Button Text="Settings" CornerRadius="14" FontFamily="Roboto" Id="a6fd4047-3f83-45cf-b3f4-58f6012896b3" Panel.Bounds="849,9,80{5,2147483647},35{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="38fd0c5b-ba44-4036-8359-8e6635e1d560">
+                            <Add.Item>
+                                <Image SourcePath="assets/profilepic.png" Id="bad19779-f592-43a1-8453-ef5337c13bef" Panel.Bounds="12,8,53{5,2147483647},45{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="38fd0c5b-ba44-4036-8359-8e6635e1d560">
+                            <Add.Item>
+                                <Title RichText="Find someone" FontFamily="Roboto" Id="36ab2c2d-dfc1-41ac-8d65-d8661e9ec56a" Panel.Bounds="385,411,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="38fd0c5b-ba44-4036-8359-8e6635e1d560">
+                            <Add.Item>
+                                <TextBox FontFamily="Roboto" Id="4a1c1685-cfd5-4248-a8e2-eca275e27e77" Panel.Bounds="355,469,267{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="38fd0c5b-ba44-4036-8359-8e6635e1d560">
+                            <Add.Item>
+                                <Icon CatalogId="linea-magnifier" Id="6b051c3e-d33e-4afe-a941-0169f1f87105" BootstrapContainer.HorizontalAlignment="Center" Panel.Bounds="603,475,12{5,2147483647},12{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="38fd0c5b-ba44-4036-8359-8e6635e1d560">
+                            <Add.Item>
+                                <Slider Id="9f50fca7-9940-4d81-a128-9962c9d3fdc7" Panel.Bounds="0,571,1011{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="38fd0c5b-ba44-4036-8359-8e6635e1d560">
+                            <Add.Item>
+                                <Title RichText="Friend List" FontFamily="Roboto" Id="47785c38-5bca-4908-9e50-538422d6b2be" Panel.Bounds="389,519,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="38fd0c5b-ba44-4036-8359-8e6635e1d560">
+                            <Add.Item>
+                                <Ellipse Thickness="3" Color="#FF5FB5CC" Id="2da7bde9-27f9-423a-99d7-0e3d6cadb882" Panel.Bounds="12,604,100{5,2147483647},100{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="38fd0c5b-ba44-4036-8359-8e6635e1d560">
+                            <Add.Item>
+                                <Ellipse Thickness="3" Color="#FFFFFF1C" Id="b47763a4-7b7b-48e6-a12a-07fc6d4a6447" Panel.Bounds="237,604,100{5,2147483647},100{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="38fd0c5b-ba44-4036-8359-8e6635e1d560">
+                            <Add.Item>
+                                <Ellipse Thickness="3" Color="#FFBCD290" Background="#00FFFFFF" Id="b4631a26-0c4c-4c5a-b8d0-146d4ab89e33" Panel.Bounds="126,604,100{5,2147483647},100{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="38fd0c5b-ba44-4036-8359-8e6635e1d560">
+                            <Add.Item>
+                                <Ellipse Thickness="3" Color="#FFFF2E2E" Id="02245d9b-12d2-4e39-9801-adc4e8cd26c1" Panel.Bounds="351,604,100{5,2147483647},100{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="38fd0c5b-ba44-4036-8359-8e6635e1d560">
+                            <Add.Item>
+                                <Ellipse Thickness="3" Color="#FF48C157" Id="be6387f0-889e-49fb-9ea6-a23c7ebc0981" Panel.Bounds="465,604,100{5,2147483647},100{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="38fd0c5b-ba44-4036-8359-8e6635e1d560">
+                            <Add.Item>
+                                <Ellipse Thickness="3" Color="#FF725792" Id="ee9e3d87-15e6-437b-b5ba-9184ca9103ff" Panel.Bounds="579,604,100{5,2147483647},100{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="38fd0c5b-ba44-4036-8359-8e6635e1d560">
+                            <Add.Item>
+                                <Ellipse Thickness="3" Color="#FF349C42" Id="bccc610b-e11d-4be5-9fb0-b3590826c38e" Panel.Bounds="693,604,100{5,2147483647},100{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="38fd0c5b-ba44-4036-8359-8e6635e1d560">
+                            <Add.Item>
+                                <Ellipse Thickness="3" Color="#FFF68324" Id="369deec5-22e4-46cd-ac47-2141b8952d4c" Panel.Bounds="807,604,100{5,2147483647},100{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="38fd0c5b-ba44-4036-8359-8e6635e1d560">
+                            <Add.Item>
+                                <Ellipse Thickness="3" Color="#FF9BBB59" Id="8a594c9d-afce-4de6-958f-06fbc8e504ba" Panel.Bounds="921,604,100{5,2147483647},100{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="38fd0c5b-ba44-4036-8359-8e6635e1d560">
+                            <Add.Item>
+                                <Label RichText="{}{Username}" FontFamily="Roboto" Id="787b65ca-ba00-4d33-90b4-9ae67219ca77" Panel.Bounds="27,716,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="38fd0c5b-ba44-4036-8359-8e6635e1d560">
+                            <Add.Item>
+                                <Label RichText="{}{Username}" FontFamily="Roboto" Id="9d83cd60-207b-4921-923e-524e470a3d2a" Panel.Bounds="141,716,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="38fd0c5b-ba44-4036-8359-8e6635e1d560">
+                            <Add.Item>
+                                <Label RichText="{}{Username}" FontFamily="Roboto" Id="757afbbf-f04d-47a1-9fe6-d9f6184796e5" Panel.Bounds="252,716,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="38fd0c5b-ba44-4036-8359-8e6635e1d560">
+                            <Add.Item>
+                                <Label RichText="{}{Username}" FontFamily="Roboto" Id="5850b0a1-52b3-4f99-826c-ed9f742a232b" Panel.Bounds="366,716,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="38fd0c5b-ba44-4036-8359-8e6635e1d560">
+                            <Add.Item>
+                                <Label RichText="{}{Username}" FontFamily="Roboto" Id="deb4cae0-d3a0-407f-8ca6-18cf2d884fce" Panel.Bounds="594,716,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="38fd0c5b-ba44-4036-8359-8e6635e1d560">
+                            <Add.Item>
+                                <Label RichText="{}{Username}" FontFamily="Roboto" Id="a207342d-a98a-467d-85e4-f1f12df4603f" Panel.Bounds="477,716,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="38fd0c5b-ba44-4036-8359-8e6635e1d560">
+                            <Add.Item>
+                                <Label RichText="{}{Username}" FontFamily="Roboto" Id="e797ec9f-62a4-4c5c-a410-083518abb405" Panel.Bounds="711,716,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="38fd0c5b-ba44-4036-8359-8e6635e1d560">
+                            <Add.Item>
+                                <Label RichText="{}{Username}" FontFamily="Roboto" Id="3083b715-f03a-404c-b390-a15e1ee54d5d" Panel.Bounds="828,716,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="38fd0c5b-ba44-4036-8359-8e6635e1d560">
+                            <Add.Item>
+                                <Label RichText="{}{Username}" FontFamily="Roboto" Id="fde8947d-1a87-4d70-ad5d-0e6bffd7a4ee" Panel.Bounds="940,716,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="38fd0c5b-ba44-4036-8359-8e6635e1d560">
+                            <Add.Item>
+                                <Label RichText="Total Friends: 100" FontFamily="Roboto" Id="42c9c6b3-11ce-4aa5-a4c1-8a1a37ab6759" Panel.Bounds="906,531,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="38fd0c5b-ba44-4036-8359-8e6635e1d560">
+                            <Add.Item>
+                                <Label RichText="Active Friends: 40" FontFamily="Roboto" Id="bc2f0fa7-0404-49ca-876e-338e35346dc3" Panel.Bounds="906,554,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="38fd0c5b-ba44-4036-8359-8e6635e1d560">
+                            <Add.Item>
+                                <Label RichText="Last active X time ago" Align="Center" Foreground="#FF725792" FontSize="10" FontFamily="Roboto" Id="a778cb9e-6a3e-49f1-b17f-107a5ad4a464" Panel.Bounds="27,734,69{5,2147483647},18*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="38fd0c5b-ba44-4036-8359-8e6635e1d560">
+                            <Add.Item>
+                                <Label RichText="Last active X time ago" Align="Center" Foreground="#FF725792" FontSize="10" FontFamily="Roboto" Id="29cb1f75-d43f-47ec-8103-714d3b3e9d18" Panel.Bounds="141,734,69{5,2147483647},18*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="38fd0c5b-ba44-4036-8359-8e6635e1d560">
+                            <Add.Item>
+                                <Label RichText="Active now" Align="Center" Foreground="#FF48C157" FontSize="10" FontFamily="Roboto" Id="457b986c-c882-4e70-bb67-d8bd7f7da882" Panel.Bounds="252,734,69{5,2147483647},18*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="38fd0c5b-ba44-4036-8359-8e6635e1d560">
+                            <Add.Item>
+                                <Label RichText="Active now" Align="Center" Foreground="#FF48C157" FontSize="10" FontFamily="Roboto" Id="80ca6a79-06d1-4b43-b86e-0692b01dd9a3" Panel.Bounds="366,734,69{5,2147483647},18*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="38fd0c5b-ba44-4036-8359-8e6635e1d560">
+                            <Add.Item>
+                                <Label RichText="Last active X time ago" Align="Center" Foreground="#FF725792" FontSize="10" FontFamily="Roboto" Id="d6edd5a4-3116-463c-902f-1acd2bcf6ad5" Panel.Bounds="477,734,69{5,2147483647},18*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="38fd0c5b-ba44-4036-8359-8e6635e1d560">
+                            <Add.Item>
+                                <Label RichText="Last active X time ago" Align="Center" Foreground="#FF725792" FontSize="10" FontFamily="Roboto" Id="436dc8ec-6d99-4ca6-9735-aba9c1ae6df7" Panel.Bounds="711,733,69{5,2147483647},18*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="38fd0c5b-ba44-4036-8359-8e6635e1d560">
+                            <Add.Item>
+                                <Label RichText="Last active X time ago" Align="Center" Foreground="#FF725792" FontSize="10" FontFamily="Roboto" Id="9d9c7c36-a1da-4bbd-b642-63d6b1fd4637" Panel.Bounds="828,734,69{5,2147483647},18*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="38fd0c5b-ba44-4036-8359-8e6635e1d560">
+                            <Add.Item>
+                                <Label RichText="Last active X time ago" Align="Center" Foreground="#FF725792" FontSize="10" FontFamily="Roboto" Id="0f99e659-f61d-4b80-a311-26af9d0024e0" Panel.Bounds="940,734,69{5,2147483647},18*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="38fd0c5b-ba44-4036-8359-8e6635e1d560">
+                            <Add.Item>
+                                <Label RichText="Active now" Align="Center" Foreground="#FF48C157" FontSize="10" FontFamily="Roboto" Id="d33340be-0d45-4bb9-8609-c3c261dd34d0" Panel.Bounds="594,737,69{5,2147483647},18*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Set Property="Content.AutoHeight" Value="True" Target="2774571c-1b8b-4f9a-91f9-ddb16ab37ff2" />
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+    </Page.Scenes>
+</Page>

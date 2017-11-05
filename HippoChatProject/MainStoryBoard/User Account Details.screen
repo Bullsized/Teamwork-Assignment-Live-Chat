@@ -1,7 +1,7 @@
-﻿<?Infragistics.Models format="xaml" version="29" appVersion="9.2.1000.51"?>
+﻿<?Infragistics.Models format="xaml" version="29" appVersion="9.2.0.72"?>
 <Page xmlns="http://prototypes.infragistics.com/"
-                                                                                   xmlns:d="http://prototypes.infragistics.com/views/design"
-                                                                                   Id="6cbf555a-e363-424d-b228-c429083e90f7" d:Design.ShowGuides="False">
+                                                                                xmlns:d="http://prototypes.infragistics.com/views/design"
+                                                                                Id="6cbf555a-e363-424d-b228-c429083e90f7" d:Design.ShowGuides="False">
     <Page.Content>
         <Content Width="1280" Height="1024" Id="0a83a7ca-e25d-4359-b783-dbf02a1194bb">
             <Content.Layers>
@@ -46,7 +46,15 @@
                                                                 <ListBox Background="#FFAA98C1" BorderColor="#FF8064A2" Foreground="#FFE3DDEA" FontSize="14" FontFamily="Roboto" Id="4183645b-0aa2-44b1-8140-502244ffc71e" BootstrapContainer.Margin="2" BootstrapContainer.SpanLg="12" BootstrapContainer.OffsetLg="0" Panel.Bounds="117,-37,110{5,2147483647},200{5,2147483647}">
                                                                     <ListBox.Items>
                                                                         <Item Text="My Account" Id="59b50272-a2c1-46e8-9c00-098fa5568fd2" />
-                                                                        <Item Text="Personal Info" Id="5c7ce412-a178-48d0-8ec4-23f556c4c939" />
+                                                                        <Item Text="Personal Info" Id="5c7ce412-a178-48d0-8ec4-23f556c4c939">
+                                                                            <Item.Selected>
+                                                                                <CommandNavigate Screen="/UserAcount.screen" Created="11/05/2017 14:37:02" Id="0727c09c-1574-44b1-87b5-758f081624b5">
+                                                                                    <CommandNavigate.Transition>
+                                                                                        <NavigateTransition Duration="0" />
+                                                                                    </CommandNavigate.Transition>
+                                                                                </CommandNavigate>
+                                                                            </Item.Selected>
+                                                                        </Item>
                                                                     </ListBox.Items>
                                                                 </ListBox>
                                                             </Column.Children>
@@ -109,6 +117,19 @@
                                         </BootstrapContainer>
                                     </BootstrapBox.Content>
                                 </BootstrapBox>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="abf08320-0cf8-4bee-8dd8-56439e3411f5">
+                            <Add.Item>
+                                <Button Text="Save Changes" Background="#FFC7BAD6" CornerRadius="14" FontFamily="Roboto" Id="e28d5c36-a6e6-4a4a-b961-b046b45073ea" Panel.Bounds="533,494,121{5,2147483647},35{5,2147483647}">
+                                    <Button.Click>
+                                        <CommandNavigate Screen="/Main Screen.screen" Created="11/05/2017 14:31:58" Id="d7d6c6da-98c5-4c4a-a7dc-2eaec1a70e07">
+                                            <CommandNavigate.Transition>
+                                                <NavigateTransition Duration="0" />
+                                            </CommandNavigate.Transition>
+                                        </CommandNavigate>
+                                    </Button.Click>
+                                </Button>
                             </Add.Item>
                         </Add>
                         <Set Property="Content.AutoHeight" Value="True" Target="0a83a7ca-e25d-4359-b783-dbf02a1194bb" />

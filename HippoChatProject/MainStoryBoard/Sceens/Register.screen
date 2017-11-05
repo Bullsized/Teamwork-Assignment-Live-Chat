@@ -1,7 +1,7 @@
-﻿<?Infragistics.Models format="xaml" version="29" appVersion="9.2.1000.51"?>
+﻿<?Infragistics.Models format="xaml" version="29" appVersion="9.2.0.72"?>
 <Page xmlns="http://prototypes.infragistics.com/"
-                                                                                   xmlns:d="http://prototypes.infragistics.com/views/design"
-                                                                                   Id="9d126f36-6663-472e-a9ce-c64ea4520bd3" d:Design.ShowGuides="False">
+                                                                                xmlns:d="http://prototypes.infragistics.com/views/design"
+                                                                                Id="9d126f36-6663-472e-a9ce-c64ea4520bd3" d:Design.ShowGuides="False">
     <Page.Content>
         <Content Width="1024" Height="768" Id="ad12a2e1-e937-41f9-849b-5e17fc6441e9">
             <Content.Layers>
@@ -74,7 +74,7 @@
                                                                 <Button Text="Register" Background="#FFAA98C1" BorderColor="#FFE3DDEA" CornerRadius="20" Foreground="#FF8064A2" FontSize="16" FontFamily="Roboto" FontStyle="Bold" Id="d2338067-fc00-403f-9e91-000105c158b6" Panel.Bounds="612,-4,80{5,2147483647},35{5,2147483647}" />
                                                             </Column.Children>
                                                             <Column.Click>
-                                                                <CommandNavigate Screen="/Sceens/ChatMain Screen For Users.screen" Created="11/04/2017 01:13:44" Id="b400ce04-9904-41b3-87fc-119e26a0d87b">
+                                                                <CommandNavigate Screen="/Sceens/Single User Chat.screen" Created="11/04/2017 01:13:44" Id="b400ce04-9904-41b3-87fc-119e26a0d87b">
                                                                     <CommandNavigate.Transition>
                                                                         <NavigateTransition Duration="0" />
                                                                     </CommandNavigate.Transition>

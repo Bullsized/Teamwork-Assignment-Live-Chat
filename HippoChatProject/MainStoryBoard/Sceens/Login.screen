@@ -1,7 +1,7 @@
-﻿<?Infragistics.Models format="xaml" version="29" appVersion="9.2.1000.51"?>
+﻿<?Infragistics.Models format="xaml" version="29" appVersion="9.2.0.72"?>
 <Page xmlns="http://prototypes.infragistics.com/"
-                                                                                   xmlns:d="http://prototypes.infragistics.com/views/design"
-                                                                                   Id="9d126f36-6663-472e-a9ce-c64ea4520bd3" d:Design.ShowGuides="False">
+                                                                                xmlns:d="http://prototypes.infragistics.com/views/design"
+                                                                                Id="9d126f36-6663-472e-a9ce-c64ea4520bd3" d:Design.ShowGuides="False">
     <Page.Content>
         <Content Width="800" Height="600" Id="ad12a2e1-e937-41f9-849b-5e17fc6441e9">
             <Content.Layers>
@@ -79,7 +79,7 @@
                                                                 <Button Text="Login" Background="#FFAA98C1" BorderColor="#FFE3DDEA" CornerRadius="20" Foreground="#FF8064A2" FontSize="16" FontFamily="Roboto" FontStyle="Bold" Id="d2338067-fc00-403f-9e91-000105c158b6" Panel.Bounds="612,-4,80{5,2147483647},35{5,2147483647}" />
                                                             </Column.Children>
                                                             <Column.Click>
-                                                                <CommandNavigate Screen="/Sceens/ChatMain Screen For Users.screen" Created="11/04/2017 01:37:53" Id="2ead04e5-1b17-408a-8876-7618b1f6238e">
+                                                                <CommandNavigate Screen="/Sceens/Single User Chat.screen" Created="11/04/2017 01:37:53" Id="2ead04e5-1b17-408a-8876-7618b1f6238e">
                                                                     <CommandNavigate.Transition>
                                                                         <NavigateTransition Type="Flip" Duration="300" />
                                                                     </CommandNavigate.Transition>
@@ -95,7 +95,7 @@
                                                                 <Button Text="Facebook" Background="#FFFFFFFF" BorderColor="#FF4281D0" CornerRadius="20" Foreground="#FF4281D0" FontSize="16" FontFamily="Roboto" FontStyle="Bold" Id="afc32a02-6140-479a-afc2-dbac9d40f633" Panel.Bounds="15,-65,80{5,2147483647},35{5,2147483647}" />
                                                             </Column.Children>
                                                             <Column.Click>
-                                                                <CommandNavigate Screen="/Sceens/ChatMain Screen For Users.screen" Created="11/04/2017 01:38:24" Id="7ccce45f-cbf0-4ed9-8e9d-0437830c8496">
+                                                                <CommandNavigate Screen="/Sceens/Single User Chat.screen" Created="11/04/2017 01:38:24" Id="7ccce45f-cbf0-4ed9-8e9d-0437830c8496">
                                                                     <CommandNavigate.Transition>
                                                                         <NavigateTransition Type="Flip" Duration="300" />
                                                                     </CommandNavigate.Transition>
@@ -111,7 +111,7 @@
                                                                 <Button Text="Google" Background="#FFFFFFFF" BorderColor="#FFC40000" CornerRadius="20" Foreground="#FFFF7373" FontSize="16" FontFamily="Roboto" FontStyle="Bold" Id="28206a5a-f73b-462c-a9cd-9585e4c2c793" Panel.Bounds="15,-65,80{5,2147483647},35{5,2147483647}" />
                                                             </Column.Children>
                                                             <Column.Click>
-                                                                <CommandNavigate Screen="/Sceens/ChatMain Screen For Users.screen" Created="11/04/2017 01:38:31" Id="b2343ac4-5c01-4e72-9602-598e6af5cab1">
+                                                                <CommandNavigate Screen="/Sceens/Single User Chat.screen" Created="11/04/2017 01:38:31" Id="b2343ac4-5c01-4e72-9602-598e6af5cab1">
                                                                     <CommandNavigate.Transition>
                                                                         <NavigateTransition Type="Flip" Duration="300" />
                                                                     </CommandNavigate.Transition>

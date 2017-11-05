@@ -1,6 +1,6 @@
-﻿<?Infragistics.Models format="xaml" version="29" appVersion="9.2.1000.51"?>
+﻿<?Infragistics.Models format="xaml" version="29" appVersion="9.2.0.72"?>
 <Page xmlns="http://prototypes.infragistics.com/"
-                                                                                   Id="f4aabbcd-134b-49d3-af22-30f01e92c5dd">
+                                                                                Id="f4aabbcd-134b-49d3-af22-30f01e92c5dd">
     <Page.Content>
         <Content Width="1280" Height="1024" Id="87b7bf4c-b479-4d9f-a85e-9f91c8b48d73">
             <Content.Layers>
@@ -194,7 +194,7 @@
                             <Add.Item>
                                 <Tabs FontSize="16" FontFamily="Roboto" Id="c8638c59-cc7a-466e-a7b3-a1344a7d5b24" Panel.Bounds="327,207,596{5,2147483647},792{5,2147483647}">
                                     <Tabs.Items>
-                                        <TabItem Header="Personal Information" IsSelected="True" Id="91c4e6d6-9b7e-4434-a3f6-473fb216485e">
+                                        <TabItem Header="Personal Information" Id="91c4e6d6-9b7e-4434-a3f6-473fb216485e">
                                             <TabItem.Content>
                                                 <Container ClipToContainer="True" Id="d27e22a0-9953-40cc-a78c-1c606f12f5df">
                                                     <Container.Children>
@@ -226,7 +226,7 @@
                                                 </Container>
                                             </TabItem.Content>
                                         </TabItem>
-                                        <TabItem Header="Privacy" Id="8d98fda5-2f7d-4ba8-bc92-ecef027fe409">
+                                        <TabItem Header="Privacy" IsSelected="True" Id="8d98fda5-2f7d-4ba8-bc92-ecef027fe409">
                                             <TabItem.Content>
                                                 <Container ClipToContainer="True" Id="b4959b33-3941-4bbc-a31c-3533a5618e40" />
                                             </TabItem.Content>
