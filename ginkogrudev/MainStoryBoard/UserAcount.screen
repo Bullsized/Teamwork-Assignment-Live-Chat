@@ -45,11 +45,6 @@
                         </Add>
                         <Add Property="Panel.Children" Target="f5a6ea70-357d-4bf9-ac4d-5b0f4f9e8955">
                             <Add.Item>
-                                <Rectangle Id="a2ac2dd3-b0a7-49fc-ace2-8e8de4de56fe" Panel.Bounds="295,39,985{5,2147483647},28{5,2147483647}" />
-                            </Add.Item>
-                        </Add>
-                        <Add Property="Panel.Children" Target="f5a6ea70-357d-4bf9-ac4d-5b0f4f9e8955">
-                            <Add.Item>
                                 <Title RichText="My account" FontFamily="Verdana" Id="ba35942e-c21b-4e4f-b741-39ee8337d2fe" Panel.Bounds="321,78,5*{5,2147483647},5*{5,2147483647}" />
                             </Add.Item>
                         </Add>
@@ -138,19 +133,9 @@
                                 <Label RichText="Online" Foreground="#FF000000" FontFamily="Roboto" Id="e029cf91-9938-49e5-a579-71be234f8d35" BootstrapContainer.SpanMd="5" BootstrapContainer.OffsetMd="0" Panel.Bounds="161,169,44{5,2147483647},18{5,2147483647}" />
                             </Add.Item>
                         </Add>
-                        <Add Property="Panel.Children" Before="b541dd72-5071-45d9-9675-34fad264843b" Target="f5a6ea70-357d-4bf9-ac4d-5b0f4f9e8955">
-                            <Add.Item>
-                                <Rectangle Id="849c2248-ccd4-4e1f-ae98-06788e64cde3" Panel.Bounds="-1,39,300{5,2147483647},985{5,2147483647}" />
-                            </Add.Item>
-                        </Add>
                         <Add Property="Panel.Children" Target="f5a6ea70-357d-4bf9-ac4d-5b0f4f9e8955">
                             <Add.Item>
                                 <Label RichText="Last time online: 15th of July" Align="Right" Foreground="#FF8064A2" FontFamily="Verdana" Opacity="1" Id="0e78fbf7-1b13-46f7-90ad-6420ebeedfd3" Panel.Bounds="1082,45,5*{5,2147483647},5*{5,2147483647}" />
-                            </Add.Item>
-                        </Add>
-                        <Add Property="Panel.Children" Target="f5a6ea70-357d-4bf9-ac4d-5b0f4f9e8955">
-                            <Add.Item>
-                                <Rectangle Id="2517ae03-5ada-4b1d-a4be-cba6f5144095" Panel.Bounds="0,218,298{5,2147483647},40{5,2147483647}" />
                             </Add.Item>
                         </Add>
                         <Add Property="Panel.Children" Target="f5a6ea70-357d-4bf9-ac4d-5b0f4f9e8955">
@@ -223,7 +208,11 @@
                                                         <Label RichText="Country" Foreground="#FF000000" FontSize="16" FontFamily="Verdana" FontStyle="Bold" Opacity="1" Id="37f8cd50-c876-4e0c-80ca-7cac06a84d48" BootstrapContainer.Margin="7" BootstrapContainer.SpanLg="4" BootstrapContainer.OffsetLg="0" Panel.Bounds="313,164,5*{5,2147483647},5*{5,2147483647}" />
                                                         <ComboBox Hint="Choose your country" FontSize="14" FontFamily="Verdana" Id="f6c99f96-339b-4cda-ac94-997a9761f7e1" BootstrapContainer.Margin="8" BootstrapContainer.SpanLg="5" BootstrapContainer.OffsetLg="0" Panel.Bounds="313,205,150{5,2147483647},28{5,2147483647}">
                                                             <ComboBox.Items>
-                                                                <Item Text="Bulgaria" Id="df86ce8c-32ed-4859-ab3d-e1f7203773fd" />
+                                                                <Item Text="Bulgaria" Id="df86ce8c-32ed-4859-ab3d-e1f7203773fd">
+                                                                    <Item.Selected>
+                                                                        <CommandSwitchTo SceneId="0bb58c37-50c8-4f0e-9973-5fe2db4341cc" AutoRevertEvent="Item.Unselected" Created="11/04/2017 19:44:05" Id="137c3aef-7d9a-462a-bf0f-975914ff6a33" />
+                                                                    </Item.Selected>
+                                                                </Item>
                                                                 <Item Text="UK" Id="4f8f2f66-3a42-43f2-8549-8c958547388d" />
                                                                 <Item Text="USA" Id="1888c6ee-b748-4180-92bd-24a30bdc180b" />
                                                                 <Item Text="Russia" Id="23dd29a6-3e3f-45a3-832b-1348aca6e301" />
@@ -246,6 +235,52 @@
                                 </Tabs>
                             </Add.Item>
                         </Add>
+                        <Add Property="Panel.Children" Target="f5a6ea70-357d-4bf9-ac4d-5b0f4f9e8955">
+                            <Add.Item>
+                                <Line Thickness="1" RotationAngle="90" Background="#00FFFFFF" Id="f1658f9e-914d-46bd-9118-dd1bbf448784" Panel.Bounds="302,66,3,964">
+                                    <Line.StartPoint>
+                                        <Point X="62" Y="-33" Id="23c82fc3-5025-4d34-bf8f-bea5f8040d87" />
+                                    </Line.StartPoint>
+                                    <Line.Segments>
+                                        <Segment Id="3955904c-d730-4400-8c5f-a6b6ffd3eb13">
+                                            <Segment.EndPoint>
+                                                <Point X="62" Y="931" Id="bbc13ee3-a46e-4b04-b926-4b837c9eebcf" />
+                                            </Segment.EndPoint>
+                                        </Segment>
+                                    </Line.Segments>
+                                </Line>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="f5a6ea70-357d-4bf9-ac4d-5b0f4f9e8955">
+                            <Add.Item>
+                                <Line Thickness="1" Background="#00FFFFFF" Id="06609db3-f4bc-42f7-b23e-15059b67a86b" Panel.Bounds="302,66,979{1,2147483647},3{1,2147483647}">
+                                    <Line.StartPoint>
+                                        <Point X="-859" Id="dfcc67d7-03b0-49ca-a80d-21ccbf74f74d" />
+                                    </Line.StartPoint>
+                                    <Line.Segments>
+                                        <Segment Id="876d5fea-d224-450e-892d-0e982c01fdf9">
+                                            <Segment.EndPoint>
+                                                <Point X="120" Id="b5faf2a0-4a8e-4576-b6bc-39603fef94b3" />
+                                            </Segment.EndPoint>
+                                        </Segment>
+                                    </Line.Segments>
+                                </Line>
+                            </Add.Item>
+                        </Add>
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+        <Scene Title="Selected Bulgaria" ParentScene="4507d999-2e78-45d0-bbf6-3a833e771e41" Created="11/04/2017 19:44:05" Id="0bb58c37-50c8-4f0e-9973-5fe2db4341cc">
+            <Scene.KeyFrames>
+                <KeyFrame Id="754b0237-3f9a-460c-b7b4-a9871a6ffdf0">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="f5a6ea70-357d-4bf9-ac4d-5b0f4f9e8955">
+                            <Add.Item>
+                                <Image SourcePath="assets/bgflag.png" Tooltip="Bulgaria" Id="e10bd80c-d0f1-47ad-9602-99656db3df1f" Panel.Bounds="1178,214,57{5,2147483647},48{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Set Property="ComboBox.IsOpen" Value="False" Target="f6c99f96-339b-4cda-ac94-997a9761f7e1" />
                     </KeyFrame.Operations>
                 </KeyFrame>
             </Scene.KeyFrames>
